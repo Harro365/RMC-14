@@ -335,7 +335,7 @@
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
   name: "M54C HEAP magazine (10x24mm)"
-       description: A uniquely shaped 40-round 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with an explosive tungsten 10mm bullet, it is optimized for close to mid-range engagements where you don’t want your target getting back up. HEAP rounds are uncommonly issued due to their inharent collateral risk and high per round cost. 
+       description: A uniquely shaped 40-round 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a tungsten 10mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. HEAP rounds are uncommonly issued due to their inherent collateral risk and high cost per round.
   suffix: HEAP
   components:
   - type: Tag
@@ -440,7 +440,8 @@
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
   name: HEAP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm HEAP magazines.
+  description: A 10x24mm caseless, telescoped round with an incendiary 10mm tungsten 10 mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70 % of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. Fits in HEAP 10x24mm magazines.
+  components:
   components:
   - type: Tag
     tags:
