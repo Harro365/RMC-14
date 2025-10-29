@@ -371,7 +371,7 @@
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
   name: "M54C extended magazine (10x24mm)"
-    description: A 60 round 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+    description: A 60-round 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
   components:
   - type: Tag
     tags:
