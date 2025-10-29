@@ -440,7 +440,7 @@
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
   name: HEAP cartridge (10x24mm)
-  description: A 10x24mm caseless, telescoped round with an incendiary 10mm tungsten 10 mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70 % of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. Fits in HEAP 10x24mm magazines.
+  description: A 10x24mm caseless, telescoped round with an incendiary 10mm tungsten bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. Fits in HEAP 10x24mm magazines.
   components:
   components:
   - type: Tag
