@@ -249,7 +249,9 @@
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
   name: "M54C magazine (10x24mm)"
-   description: A 40-round standard 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+   description: A 40-round standard 10x24mm magazine built for the M54C MK2.
+     - type: RMCLoreExaminable
+    content: "Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor."
   components:
   - type: Tag
     tags:
@@ -277,7 +279,9 @@
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
   name: "M54C AP magazine (10x24mm)"
-     description: A uniquely shaped 40-round Armor Piercing 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for close to mid-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective. 
+     description: A uniquely shaped 40-round Armor Piercing 10x24mm magazine built for the M54C MK2.
+          - type: RMCLoreExaminable
+    content:  Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for close to mid-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective.
   suffix: AP
   components:
   - type: Tag
@@ -307,7 +311,9 @@
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CIncendiary
   name: "M54C Incendiary magazine (10x24mm)"
-     description: A uniquely shaped 40-round Incendiary 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with an incendiary 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+     description: A uniquely shaped 40-round Incendiary 10x24mm magazine built for the M54C MK2.
+               - type: RMCLoreExaminable
+    content:   Featuring caseless telescoped rounds with an incendiary 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
   suffix: Incendiary
   components:
   - type: Tag
@@ -335,7 +341,9 @@
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
   name: "M54C HEAP magazine (10x24mm)"
-       description: A uniquely shaped 40-round High Explosive Armor Piercing 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a tungsten 10mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. HEAP rounds are uncommonly issued due to their inherent collateral risk and high cost per round.
+       description: A uniquely shaped 40-round High Explosive Armor Piercing 10x24mm magazine built for the M54C MK2. 
+                      - type: RMCLoreExaminable
+    content: Featuring caseless telescoped rounds with a tungsten 10mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. HEAP rounds are uncommonly issued due to their inherent collateral risk and high cost per round.
   suffix: HEAP
   components:
   - type: Tag
@@ -372,6 +380,8 @@
   id: CMMagazineRifleM54CExt
   name: "M54C extended magazine (10x24mm)"
     description: A 60-round extended 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+                          - type: RMCLoreExaminable
+    content: 
   components:
   - type: Tag
     tags:
