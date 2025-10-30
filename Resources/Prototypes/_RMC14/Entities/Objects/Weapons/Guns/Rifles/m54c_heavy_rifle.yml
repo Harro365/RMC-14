@@ -2,7 +2,7 @@
   name: M54CE2 heavy assault rifle
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleM54CE2
-  description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
+  description: A large fire support weapon capable of laying down sustained suppressing fire from a mounted position with a bipod. While unstable and less accurate, it can be lugged and shot with two hands.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2/desert.rsi
@@ -115,6 +115,7 @@
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
   name: "M54CE2 magazine (10x24mm)"
+     description: A 300-round standard 10x24mm drum built for the M54CE2. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
   components:
   - type: Tag
     tags:
@@ -153,6 +154,7 @@
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2HT
   name: "M54CE2 HT magazine (10x24mm)"
+       description: A 200-round Holotargeting 10x24mm drum built for the M54CE2. Featuring caseless telescoped rounds with a tracer 10mm bullet, it is optimized for marking targets with burning phosphorus to allow for clearer shots in close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor and has redused stopping power.
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -199,6 +201,7 @@
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2AP
   name: "M54CE2 AP magazine (10x24mm)"
+     description: A uniquely shaped 300-round 10x24mm drum built for the M54CE2. Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for close to mid-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective. 
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
