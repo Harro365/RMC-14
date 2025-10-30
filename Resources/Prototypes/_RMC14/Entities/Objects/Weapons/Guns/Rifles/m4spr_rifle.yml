@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M4SPR battle rifle
   id: WeaponRifleM4SPR
-  description: The M4SPR battle rifle is a designated marksman rifle in service with the Marine. Sporting a bullpup configuration, the M4SPR battle rifle is perfect for reconnaissance and fire support teams.
+  description: The M4SPR battle rifle is the designated marksman rifle in service with the UNMC. Compact, light weight, and B8 compatible, the M4SPR battle rifle is perfect for reconnaissance and fire support teams. Chambered in 10x24.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr/desert.rsi
@@ -256,7 +256,7 @@
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM4SPR
   name: "M4SPR magazine (10x24mm)"
-  description: "A magazine of standard 10x24mm rounds for use in the M4SPR battle rifle."
+  description: A standard 25-round 10x24mm magazine built for the M4SPR. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for mid to long-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
   components:
   - type: Tag
     tags:
@@ -278,7 +278,7 @@
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRAP
   name: M4SPR AP magazine (10x24mm)
-  description: "A magazine of armor-piercing 10x24mm rounds for use in the M4SPR battle rifle."
+  description: A uniquely shaped 25-round Armor Piercing 10x24mm magazine built for the M4SPR. Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for mid to long-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective. 
   suffix: AP
   components:
   - type: Tag
@@ -314,7 +314,7 @@
   parent: CMMagazineRifleM4SPR
   id: CMMagazineRifleM4SPRExt
   name: "M4SPR extended magazine (10x24mm)"
-  description: "An extended magazine of standard 10x24mm rounds for use in the M4SPR battle rifle."
+  description: A 35-round extended 10x24mm magazine built for the M4SPR. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for mid to long-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
   components:
   - type: BallisticAmmoProvider
     capacity: 35
@@ -333,8 +333,8 @@
 - type: entity
   parent: CMMagazineRifleM4SPR
   id: RMCMagazineRifleM5SPRHVP
-  name: "M5SPR HV-Piercing magazine (10x24mm)"
-  description: "A magazine of HV-Piercing 10x24mm rounds for use in the M5SPR battle rifle."
+  name: "M5SPR HVP magazine (10x24mm)"
+  description: A uniquely shaped 25-round High-Velocity, Piercing 10x24mm magazine built for the M5SPR. Featuring high-velocity caseless telescoped rounds with a light, high-carbon alloy steel 10mm bullet, it is optimized for mid to long-range engagements where the bullet must sheer and pass through targets.
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -360,8 +360,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM5SPRHVP
-  name: cartridge (HV-Piercing)
-  description: A high-velocity HV-Piercing cartridge. Fits in M5SPR custom magazines.
+  name: cartridge (HVP)
+  description: A 10x24mm caseless, High Velocity, High Impact, Piercing telescoped round with a light, high-carbon alloy steel 10mm bullet. Fits in M5SPR custom magazines.
   components:
   - type: Tag
     tags:
@@ -400,8 +400,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleM5SPRHVHIP
-  name: cartridge (HVHI-Piercing)
-  description: A high-velocity HVHI-Piercing cartridge. Fits in M5SPR custom magazines.
+  name: cartridge (HVHIP)
+  description: A 10x24mm caseless, High Velocity, High Impact, Piercing telescoped round with a light, high-carbon alloy steel 10mm bullet. Fits in M5SPR custom magazines.
   components:
   - type: Tag
     tags:
@@ -427,8 +427,8 @@
 - type: entity
   parent: RMCMagazineRifleM5SPRHVP
   id: RMCMagazineRifleM5SPRHVHIP
-  name: "M5SPR HVHI-Piercing magazine (10x24mm)"
-  description: "A magazine of HVHI-Piercing 10x24mm rounds for use in the M5SPR battle rifle."
+  name: "M5SPR HVHIP magazine (10x24mm)"
+  description: A uniquely shaped 25-round High-Velocity, High Impact, Piercing 10x24mm magazine built for the M5SPR. Featuring high-velocity caseless telescoped rounds with a light, high-carbon alloy steel 10mm bullet, it is optimized for mid to long-range engagements where the bullet must mushroom and pass through targets without tumbleing.
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
