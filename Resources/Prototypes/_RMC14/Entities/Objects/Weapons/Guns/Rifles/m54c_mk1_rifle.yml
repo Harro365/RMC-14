@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M54C assault rifle MK1
   id: RMCWeaponRifleM54CMK1
-  description: An older design of the UNMC M54C, the MK1 features fewer moving parts overall and a recessed magwell allowing for much higher-capacity magazines, yet is much heavier and lacks the attachment compatibility of its modern counterpart. Chambered in 10x24.
+  description: An older design of the UNMC M54C, the MK1 features fewer moving parts overall and a recessed magwell allowing for much higher-capacity magazines, yet is much heavier and lacks the attachment rails and threaded barrel of its modern counterpart. Chambered in 10x24.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54cmk1.rsi
@@ -145,7 +145,7 @@
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54CMK1
   name: "M54C MK1 magazine (10x24mm)"
-     description: A 95-round 10x24mm magazine built for the M54C MK1. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+     description: A 95-round standard 10x24mm magazine built for the M54C MK1. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
   components:
   - type: Tag
     tags:
@@ -173,7 +173,7 @@
   parent: CMMagazineRifleM54CMK1
   id: CMMagazineRifleM54CMK1AP
   name: "M54C MK1 AP magazine (10x24mm)"
-     description: A uniquely shaped 95-round 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for close to mid-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective. 
+     description: A uniquely shaped Armor Piercing 95-round 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for close to mid-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective. 
   suffix: AP
   components:
   - type: Tag
@@ -201,7 +201,7 @@
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1Incendiary
   name: "M54C MK1 Incendiary magazine (10x24mm)"
-     description: A uniquely shaped 95-round 10x24mm magazine built for the M54C MK1. Featuring caseless telescoped rounds with an incendiary 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+     description: A uniquely shaped 95-round Incendiary 10x24mm magazine built for the M54C MK1. Featuring caseless telescoped rounds with an incendiary 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
   suffix: AP
   components:
   - type: Tag
@@ -229,7 +229,7 @@
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1HEAP
   name: "M54C MK1 HEAP magazine (10x24mm)"
-     description: A uniquely shaped 95-round 10x24mm magazine built for the M54C MK1. Featuring caseless telescoped rounds with a tungsten 10mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. HEAP rounds are uncommonly issued due to their inherent collateral risk and high cost per round.
+     description: A uniquely shaped 95-round High Explosive Armor Piercing 10x24mm magazine built for the M54C MK1. Featuring caseless telescoped rounds with a tungsten 10mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. HEAP rounds are uncommonly issued due to their inherent collateral risk and high cost per round.
   suffix: HEAP
   components:
   - type: Tag
