@@ -2,7 +2,7 @@
   name: M54CE2 heavy assault rifle
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleM54CE2
-  description: A large M54C MK2 variant designed to lay down suppressing fire from a mounted position with a bipod. While somewhat unstable and less accurate, it can still be shouldered and fired with two hands.
+  description: A large M54C MK2 variant designed to lay down suppressing fire from a mounted position with a bipod. While somewhat unstable and less accurate, it can still be shouldered and fired with two hands. Chambered in 10x24.
    - type: RMCLoreExaminable
     content: "The United Nations Marine Corps Model 54 Carbine Extended-Capacity Mark 2, better known as the M54CE2 HAR, was developed by R&D to exploit the superior capacity of the 10x24mm caseless, telescoped round. Based upon the MK2 carbine platform, it retains the same 14.3-inch barrel and automatic ejection/cycling of misfires and duds, while incorporating a high-capacity 300-round drum magazine for heavy fire-support from a mounted position. Despite its fire-support role, it remains a short-barrel carbine for improved manoeuvrability and is rated for two-handed operation when required."
   components:
