@@ -18,7 +18,7 @@
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
   - type: RMCLoreExaminable
-    content: rmc-lore-examinable-m54c-mk2
+    content: "The United Nations Marine Corps Model 54 Carbine, Mark 2, better known as the M54C MK2, is the current standard-issue infantry service rifle of the UNMC, the product of years of field testing and R&D design. It is a short-barrel, full-automatic-capable carbine chambered in 10x24mm caseless, telescoped ammunition. Built with iconic, brick-like ergonomics, it features a robust frame around its 14.3-inch barrel and uses a gas-operated rotating bolt. Unlike the MK1, it includes an underslung rail, a threaded barrel, and an ejection port designed to automatically eject and cycle misfires and duds."
   - type: Gun
     selectedMode: FullAuto
     availableModes:
