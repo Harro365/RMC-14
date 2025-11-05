@@ -409,7 +409,7 @@
   parent: CMBaseCartridgeRifle
   id: CMCartridgeRifle10x24mm
   name: cartridge (10x24mm)
-  description: "A standard 10x24mm caseless, telescoped round. It is used prolifically by the UNMC in the M4SPR, M54C, and M4CE2. Fits in 10x24mm magazines."
+  description: "A standard 10x24mm caseless, telescoped round. It is used prolifically by the UNMC in the M4SPR, M54C, and M54CE2. Fits in 10x24mm magazines."
        - type: RMCLoreExaminable
     content: "The 10x24 caseless, telescoped round is the current UN standard round. The cartridge consists of a 210 grain (13.6 gram), jacketless, monolithic-lead 10mm bullet telescoped within a rectangular propellant block of Nitramine 50. It was selected over conventional rifle rounds such as 5.56 because the caseless-telescoped architecture significantly reduces ammunition weight and bulk, and simplifies magazine and weapon design thanks to the shortened cartridge length and elimination of a brass case."
   components:
@@ -424,7 +424,7 @@
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
   name: AP cartridge (10x24mm)
-  description: "An armor-piercing variant of the standard 10x24mm caseless, telescoped round. It is used prolifically by the UNMC in the M4SPR, M54C, and M4CE2, and fits in 10x24mm AP magazines."
+  description: "An armor-piercing variant of the standard 10x24mm caseless, telescoped round. It is used prolifically by the UNMC in the M4SPR, M54C, and M54CE2, and fits in 10x24mm AP magazines."
        - type: RMCLoreExaminable
     content: "A variant of the 10x24mm caseless round that swaps the soft monolithic-lead bullet for a monolithic titanium-vanadium alloy. This alloy bullet is better able to resist deformation on impact and maintain its shape, thereby more effectively penetrating armor materials. However, the reduced mushrooming means it transfers less energy to unarmored targets, often passing through soft targets without delivering optimum stopping power."
   components:
@@ -439,7 +439,7 @@
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmIncendiary
   name: Incendary cartridge (10x24mm)
-  description: "An Incendiary variant of the standard 10x24mm caseless, telescoped round. It fits in 10x24mm Incendary magazines"
+  description: "An Incendiary variant of the standard 10x24mm caseless, telescoped round. It fits in 10x24mm Incendary magazines."
        - type: RMCLoreExaminable
     content: "A variant of the 10x24mm caseless round that swaps the soft monolithic-lead bullet for a self-igniting zirconium tiped one. The end-effect is the round on impact creates intense localized heat and flame to ignite fuel or internal components"
   components:
@@ -454,7 +454,7 @@
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
   name: HEAP cartridge (10x24mm)
-  description: "A High-Explosive-Armor-Piercing variant of the standard 10x24mm caseless, telescoped round. It fits in 10x24mm HEAP magazines"
+  description: "A High-Explosive-Armor-Piercing variant of the standard 10x24mm caseless, telescoped round. It fits in 10x24mm HEAP magazines."
          - type: RMCLoreExaminable
     content: "A variant of the 10x24mm caseless round that swaps the soft monolithic-lead bullet for a titanium-alloy 10mm one with a small internal high-explosive charge in the bullet tip. The end-effect is that the round detonates to inflate the wound cavity and embed shrapnel."
   components:
