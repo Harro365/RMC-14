@@ -2,7 +2,7 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M54C assault rifle MK2
   id: RMCWeaponRifleM54C
-  description: The standard issue rifle of the UNMC, made to improve upon the already great MK1 to fit nearly all standard weapon attachments. Chambered in 10x24mm.
+  description: The standard issue rifle of the UNMC, made to improve upon the already great MK1 to be lighter and fit nearly all standard weapon attachments. Chambered in 10x24mm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c/desert.rsi
@@ -249,9 +249,9 @@
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
   name: "M54C magazine (10x24mm)"
-   description: A 40-round standard 10x24mm magazine built for the M54C MK2.
+   description: "A 40-round standard 10x24mm magazine for use with the M54C MK2."
      - type: RMCLoreExaminable
-    content: "Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor."
+    content: "Standard magazines for the M54C utilize 10x24 caseless-telescoped rounds and a monolithic-lead 10mm bullet, optimized for close-to-mid-range engagements against soft and lightly armored targets; however, they often under-penetrate body armor."
   components:
   - type: Tag
     tags:
@@ -279,9 +279,9 @@
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
   name: "M54C AP magazine (10x24mm)"
-     description: A uniquely shaped 40-round Armor Piercing 10x24mm magazine built for the M54C MK2.
+     description: "A 40-round Armor-Piercing 10x24mm magazine for use with the M54C MK2."
           - type: RMCLoreExaminable
-    content:  Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for close to mid-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective.
+    content:  "Armor-Piercing magazines for the M54C utilize 10x24mm caseless-telescoped rounds and a monolithic-titanium-alloy 10mm bullet, optimized for close-to-mid-range engagements against moderate and heavily armored targets; however, they often over-penetrate soft targets without body armor."
   suffix: AP
   components:
   - type: Tag
@@ -304,16 +304,14 @@
       color: "#1F951F"
   - type: RefillableByBulletBox
     bulletType: RMCBoxBulletsRifleAP
-  - type: RMCLoreExaminable
-    content: rmc-lore-examinable-m54c-ap-magazine
 
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CIncendiary
   name: "M54C Incendiary magazine (10x24mm)"
-     description: A uniquely shaped 40-round Incendiary 10x24mm magazine built for the M54C MK2.
-               - type: RMCLoreExaminable
-    content:   Featuring caseless telescoped rounds with an incendiary 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+     description: "A 40-round Incendiary 10x24mm magazine for use with the M54C MK2."
+    - type: RMCLoreExaminable
+    content: "Incendiary magazines for the M54C utilize 10x24 caseless-telescoped rounds and a lead-core 10mm bullet and a self-igniting zirconium tip, optimized for close-to-mid-range engagements against soft and lightly armored targets and is able to ignite flammable materials, fuel, or cause extra damage internally in targets."
   suffix: Incendiary
   components:
   - type: Tag
@@ -341,9 +339,9 @@
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
   name: "M54C HEAP magazine (10x24mm)"
-       description: A uniquely shaped 40-round High Explosive Armor Piercing 10x24mm magazine built for the M54C MK2. 
-                      - type: RMCLoreExaminable
-    content: Featuring caseless telescoped rounds with a tungsten 10mm bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. HEAP rounds are uncommonly issued due to their inherent collateral risk and high cost per round.
+       description: A 40-round High-Explosive-Armor-Piercing 10x24mm magazine for use with the M54C MK2.
+     - type: RMCLoreExaminable
+    content: "High-Explosive-Armor-Piercing magazines for the M54C utilize 10x24mm caseless-telescoped rounds and a titanium-alloy 10mm bullet with a small internal high-explosive charge in the bullet tip, triggered on impact, thereby generating an internal detonation and fragmentation effect."
   suffix: HEAP
   components:
   - type: Tag
@@ -379,9 +377,9 @@
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
   name: "M54C extended magazine (10x24mm)"
-    description: A 60-round extended 10x24mm magazine built for the M54C MK2. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
-                          - type: RMCLoreExaminable
-    content: 
+   description: "A 60-round extended 10x24mm magazine for use with the M54C MK2."
+     - type: RMCLoreExaminable
+    content: "Extended magazines for the M54C utilize 10x24 caseless-telescoped rounds and a monolithic-lead 10mm bullet, optimized for close-to-mid-range engagements against soft and lightly armored targets; however, they often under-penetrate body armor."
   components:
   - type: Tag
     tags:
@@ -411,7 +409,9 @@
   parent: CMBaseCartridgeRifle
   id: CMCartridgeRifle10x24mm
   name: cartridge (10x24mm)
-  description: A standard 10x24mm caseless, telescoped round with a 10mm lead bullet, built to be low-cost and high-capacity. It is used prolifically by the UNMC in the M4SPR, M54C, and M4CE2. Fits in 10x24mm magazines.
+  description: "A standard 10x24mm caseless, telescoped round. It is used prolifically by the UNMC in the M4SPR, M54C, and M4CE2. Fits in 10x24mm magazines."
+       - type: RMCLoreExaminable
+    content: "The 10x24 caseless, telescoped round is the current UN standard round. The cartridge consists of a 210 grain (13.6 gram), jacketless, monolithic-lead 10mm bullet telescoped within a rectangular propellant block of Nitramine 50. It was selected over conventional rifle rounds such as 5.56 because the caseless-telescoped architecture significantly reduces ammunition weight and bulk, and simplifies magazine and weapon design thanks to the shortened cartridge length and elimination of a brass case."
   components:
   - type: Tag
     tags:
@@ -424,7 +424,9 @@
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
   name: AP cartridge (10x24mm)
-  description: An Armor Piercing 10x24mm caseless, telescoped round with a 10mm tungsten bullet, built to penetrate modern body armor and be high-capacity. It is used prolifically by the UNMC in the M4SPR, M54C, and M4CE2. Fits in 10x24mm AP magazines.
+  description: "An armor-piercing variant of the standard 10x24mm caseless, telescoped round. It is used prolifically by the UNMC in the M4SPR, M54C, and M4CE2, and fits in 10x24mm AP magazines."
+       - type: RMCLoreExaminable
+    content: "A variant of the 10x24mm caseless round that swaps the soft monolithic-lead bullet for a monolithic titanium-vanadium alloy. This alloy bullet is better able to resist deformation on impact and maintain its shape, thereby more effectively penetrating armor materials. However, the reduced mushrooming means it transfers less energy to unarmored targets, often passing through soft targets without delivering optimum stopping power."
   components:
   - type: Tag
     tags:
@@ -437,7 +439,9 @@
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmIncendiary
   name: Incendary cartridge (10x24mm)
-  description: A Incendary 10x24mm caseless, telescoped round with an incendiary 10mm lead bullet, built to ignite targets and be high-capacity. The UNMC uncommonly uses it in the M4SPR, M54C, and M4CE2. Fits in incendiary 10x24mm magazines.
+  description: "An Incendiary variant of the standard 10x24mm caseless, telescoped round. It fits in 10x24mm Incendary magazines"
+       - type: RMCLoreExaminable
+    content: "A variant of the 10x24mm caseless round that swaps the soft monolithic-lead bullet for a self-igniting zirconium tiped one. The end-effect is the round on impact creates intense localized heat and flame to ignite fuel or internal components"
   components:
   - type: Tag
     tags:
@@ -450,8 +454,9 @@
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
   name: HEAP cartridge (10x24mm)
-  description: A High Explosive Armor Piercing 10x24mm caseless, telescoped round with a 10mm tungsten bullet and an embedded explosive charge, the round is designed to detonate after translating approximately 70% of its total kinetic energy, thereby explosively enlarging the temporary wound cavity before exiting and embedding shrapnel. Fits in HEAP 10x24mm magazines.
-  components:
+  description: "A High-Explosive-Armor-Piercing variant of the standard 10x24mm caseless, telescoped round. It fits in 10x24mm HEAP magazines"
+         - type: RMCLoreExaminable
+    content: "A variant of the 10x24mm caseless round that swaps the soft monolithic-lead bullet for a titanium-alloy 10mm one with a small internal high-explosive charge in the bullet tip. The end-effect is that the round detonates to inflate the wound cavity and embed shrapnel."
   components:
   - type: Tag
     tags:
