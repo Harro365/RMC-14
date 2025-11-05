@@ -2,7 +2,9 @@
   name: M54CE2 heavy assault rifle
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleM54CE2
-  description: A large fire support weapon capable of laying down sustained suppressing fire from a mounted position with a bipod. While unstable and less accurate, it can be lugged and shot with two hands.
+  description: A large M54C MK2 variant designed to lay down suppressing fire from a mounted position with a bipod. While somewhat unstable and less accurate, it can still be shouldered and fired with two hands.
+   - type: RMCLoreExaminable
+    content: "The United Nations Marine Corps Model 54 Carbine Extended-Capacity Mark 2, better known as the M54CE2 HAR, was developed by R&D to exploit the superior capacity of the 10x24mm caseless, telescoped round. Based upon the MK2 carbine platform, it retains the same 14.3-inch barrel and automatic ejection/cycling of misfires and duds, while incorporating a high-capacity 300-round drum magazine for heavy fire-support from a mounted position. Despite its fire-support role, it remains a short-barrel carbine for improved manoeuvrability and is rated for two-handed operation when required."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2/desert.rsi
@@ -115,7 +117,9 @@
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CE2
   name: "M54CE2 magazine (10x24mm)"
-     description: A 300-round standard 10x24mm drum built for the M54CE2. Featuring caseless telescoped rounds with a lead 10mm bullet, it is optimized for close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor.
+     description: A 300-round standard 10x24mm drum for use with the M54CE2 HAR. 
+        - type: RMCLoreExaminable
+    content: "Standard drums for the M54CE2 utilize 10x24 caseless-telescoped rounds and a monolithic-lead 10mm bullet, optimized for close-to-mid-range engagements against soft and lightly armored targets; however, they often under-penetrate body armor."
   components:
   - type: Tag
     tags:
@@ -154,7 +158,9 @@
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2HT
   name: "M54CE2 HT magazine (10x24mm)"
-       description: A 200-round Holotargeting 10x24mm drum built for the M54CE2. Featuring caseless telescoped rounds with a tracer 10mm bullet, it is optimized for marking targets with burning phosphorus to allow for clearer shots in close to mid-range engagements with soft and lightly armored targets; however often underpenetrates body armor and has redused stopping power.
+     description: A 200-round Holotargeting 10x24mm drum built for use with the M54CE2 HAR.
+             - type: RMCLoreExaminable
+    content: "Holotargeting drums for the M54CE2 interact with advanced internal holo-telemetry and R&D ferroelectric micro-sensors. Through this, each round communicates with the weapon’s inbuilt fire-control module. While under sustained fire, the system tracks target signatures, range shifts and hit-density, then uses this calibration to maxamize stopping power."
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
@@ -177,7 +183,6 @@
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmHT
   name: cartridge (10x24mm)
-  description: A 10x24mm HT cartridge. Fits in 10x24mm holo targeting magazines.
   components:
   - type: Tag
     tags:
@@ -201,7 +206,11 @@
   parent: CMMagazineRifleM54CE2
   id: CMMagazineRifleM54CE2AP
   name: "M54CE2 AP magazine (10x24mm)"
-     description: A uniquely shaped 300-round 10x24mm drum built for the M54CE2. Featuring caseless telescoped rounds with a tungsten 10mm bullet, it is optimized for close to mid-range engagements with moderately armored and heavily armored targets, but often overpenetrates soft targets, making it less effective. 
+     description: A 300-round Armor-Piercing 10x24mm drum for use with the M54CE2 HAR.
+               - type: RMCLoreExaminable
+    content:  "Armor-Piercing drums for the M54CE2 utilize 10x24mm caseless-telescoped rounds and a monolithic-titanium-alloy 10mm bullet, optimized for close-to-mid-range engagements against moderate and heavily armored targets; however, they often over-penetrate soft targets without body armor."
+  suffix: AP
+  components:
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
