@@ -2,7 +2,9 @@
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   name: M4SPR battle rifle
   id: WeaponRifleM4SPR
-  description: The M4SPR battle rifle is the designated marksman rifle in service with the UNMC. Compact, light weight, and B8 compatible, the M4SPR battle rifle is perfect for reconnaissance and fire support teams. Chambered in 10x24.
+  description: "The M4SPR battle rifle is the designated marksman rifle in service with the UNMC. Compact, lightweight, and B8 compatible, the M4SPR battle rifle is perfect for reconnaissance and fire support teams. Chambered in 10x24."
+     - type: RMCLoreExaminable
+    content: "The United Nations Marine Corps Model 4 Special Purpose Rifle, better known as the M4SPR is built in a max-barrel configuration with the goal of maximizeing the ballistic performance of the 10×24 mm caseless, telescoped round."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr/desert.rsi
