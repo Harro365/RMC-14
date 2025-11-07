@@ -160,7 +160,7 @@
   name: "M54CE2 HT magazine (10x24mm)"
      description: A 200-round Holotargeting 10x24mm drum built for use with the M54CE2 HAR.
              - type: RMCLoreExaminable
-    content: "Holotargeting drums for the M54CE2 interact with advanced internal holo-telemetry and R&D ferroelectric micro-sensors. Through this, each round communicates with the weapon’s inbuilt fire-control module. While under sustained fire, the system tracks target signatures, range shifts and hit-density, then uses this calibration to maxamize stopping power."
+    content: "Through advanced internal holo-telemetry and R&D ferroelectric micro-sensors, each round communicates with the weapon’s inbuilt fire-control module. While under sustained fire, the system tracks target signatures, range shifts, and hit-density, then uses sends this calibration out using microradio waves to maximize stopping power."
   components:
   - type: BallisticAmmoProvider
     mayTransfer: True
